@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/DisplayDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_data"
+        android:background="#42f49b"
+
+        />
+    <Button
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_new_drugs"
+        android:background="#42f49b"
+
+        />
+    <Button
+        android:id="@+id/UpdateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_data"
+        android:background="#42f49b"
+
+        />
+
+    <Button
+        android:id="@+id/DeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_data"
+        android:background="#42f49b"
+
+        />
+
+    <EditText
+        android:id="@+id/CodeEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_ref"
+
+        />
+    <EditText
+        android:id="@+id/GENERIC_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/generic_name"
+
+        />
+    <EditText
+        android:id="@+id/BRAND_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/brand_name"
+
+        />
+    <EditText
+        android:id="@+id/PURPOSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/purpose"
+
+        />
+    <EditText
+        android:id="@+id/DEA_SCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dea_sch"
+
+        />
+    <EditText
+        android:id="@+id/SPECIAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/special"
+
+        />
+    <EditText
+        android:id="@+id/CATEGORY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/category"
+
+        />
+    <EditText
+        android:id="@+id/STUDY_TOPIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/study_topic"
+
+        />
+
+
+</LinearLayout>

@@ -35,5 +35,9 @@
         android:id="@+id/legal"
         android:icon="@drawable/icn_legal"
         android:title="Legal"/>
+    <item
+        android:id="@+id/administrator"
+        android:icon="@drawable/admin_icon"
+        android:title="@string/administrator1"/>
   </group>
 </menu>
